@@ -16,8 +16,7 @@ export default function UserContextProvider({ children }) {
         like: false,
         url: item.src.medium,
       }));
-      console.log(data.photos);
-      console.log(photos);
+     
       setPhotos(photos);
       setArrayFav(
         photos.filter((item) => {
